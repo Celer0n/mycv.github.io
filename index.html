@@ -39,54 +39,116 @@
 					<div id="main">
 
 						<!-- about me -->
-						<article id="aboutme" style="display: flex; align-items: flex-start; gap: 20px; padding: 20px; background-color: #005f2f; border-radius: 10px; color: white; max-width: 800px; margin: auto;">
-							<!-- Левая колонка -->
-							<div style="flex: 0 0 400px; text-align: center;">
-								<h2 style="font-size: 24px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px;">About Me</h2>
-								<img src="images/IMG_4921.JPG" alt="Profile photo" style="width: 350px; height: auto; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
-							</div>
-						
-							<!-- Правая колонка -->
+						<article id="aboutme" style="
+						display: flex; 
+						flex-direction: column; 
+						align-items: center; 
+						justify-content: center; 
+						text-align: center; 
+						padding: 20px; 
+						background-color: #005f2f; 
+						border-radius: 10px; 
+						color: white; 
+						max-width: 600px; 
+						margin: 50px auto; 
+						height: 120vh; /* Чтобы центрировать по всей высоте окна */">
+						<!-- Заголовок -->
+						<h2 style="
+							font-size: 24px; 
+							margin-bottom: 20px; 
+							text-transform: uppercase; 
+							letter-spacing: 2px;">
+							About Me
+						</h2>
 
-							<div style="flex: 1; margin-top: 40px;">
-								<style>
-									p {
-									  font-size: 18px;
-									  line-height: 1.5;
-									  margin-top: 10px;
-									  margin-bottom: 10px;
-									  text-indent: 30px;
-									}
-								</style>
+						<!-- Фото -->
+						<img src="images/IMG_4921.JPG" alt="Main photo" style="
+							width: 400px; 
+							height: auto; 
+							border-radius: 10px; 
+							box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+							margin-bottom: 20px;">
 
-								<p>I am a student at Kyiv National University of Economics, specializing in 125 "Cybersecurity." I have 2 years of professional experience in the IT field. During the first year, I worked as an engineer in a data center, gaining expertise in server maintenance and network infrastructure. In the second year, I focused on administering hypervisors, specifically vCenter ESXi, while working as a cloud engineer at a leading service provider.</p>
-								<p>I am certified in "DevOps for System Administrators", which has enhanced my skills in automation, system optimization, and CI/CD processes. I am passionate about modern IT technologies and continuously improving my knowledge in the field.</p>
-							</div>
+						<!-- Текст -->
+						<div style="
+							max-width: 400px; 
+							text-align: justify; 
+							line-height: 1.6; 
+							font-size: 16px;">
+							<p>I am a student at Kyiv National University of Economics, specializing in 125 "Cybersecurity." I have 2 years of professional experience in the IT field. During the first year, I worked as an engineer in a data center, gaining expertise in server maintenance and network infrastructure. In the second year, I focused on administering hypervisors, specifically vCenter ESXi, while working as a cloud engineer at a leading service provider.</p>
+							<p>I am certified in "DevOps for System Administrators", which has enhanced my skills in automation, system optimization, and CI/CD processes. I am passionate about modern IT technologies and continuously improving my knowledge in the field.</p>
+						</div>
 						</article>
 
 						<!-- Work -->
-							<article id="work" style="display: flex; align-items: flex-start; gap: 20px; padding: 20px; background-color: #005f2f; border-radius: 10px; color: white; max-width: 800px; margin: auto;">
-								<div style="flex: 0 0 400px; text-align: center;">
-									<h2 style="font-size: 24px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px;">Skills</h2>
-									<img src="images/3095221.png" alt="Profile photo" style="width: 400px; height: auto; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
-								</div>
-								<div style="flex: 1; margin-top: 0px;">
-									<p style="line-height: 1.5; font-size: 18px; margin-top: 60px;">
-										<br>
-										- Linux administration<br>
-										- Troubleshooting<br>
-										- Understanding of the Internet and network protocols<br>
-										- Experience working in Terraform, Ansible, Sonarqube, jFrog Artifactory, GitLab CI/CD<br>
-										- Containerization (k8s, Docker)<br>
-										- Basic knowledge of Python, ANSI С<br>
-										- Experience with Microsoft Azure and AWS<br>
-									</p>
-								</div>
-							</article>
+						<article id="work" style="
+						display: flex; 
+						flex-direction: column; 
+						align-items: center; 
+						justify-content: center; 
+						text-align: center; 
+						padding: 20px; 
+						background-color: #005f2f; 
+						border-radius: 10px; 
+						color: white; 
+						max-width: 600px; 
+						margin: 50px auto; 
+						height: auto; /* Высота подстраивается под контент */">
+						<!-- Заголовок -->
+						<h2 style="
+							font-size: 24px; 
+							margin-bottom: 20px; 
+							text-transform: uppercase; 
+							letter-spacing: 2px;
+						">
+							Skills
+						</h2>
+
+						<!-- Фото -->
+						<img src="images/3095221.png" alt="Skills photo" style="
+							width: 200px; 
+							height: auto; 
+							border-radius: 10px; 
+							box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+							margin-bottom: 20px;">
+
+						<!-- Текст -->
+						<div style="
+							max-width: 600px; 
+							text-align: justify; 
+							line-height: 1.6; 
+							font-size: 16px;">
+							<p style="margin: 0;">
+								- Linux administration<br>
+								- Troubleshooting<br>
+								- Understanding of the Internet and network protocols<br>
+								- Experience working in Terraform, Ansible, Sonarqube, jFrog Artifactory, GitLab CI/CD<br>
+								- Containerization (k8s, Docker)<br>
+								- Basic knowledge of Python, ANSI С<br>
+								- Experience with Microsoft Azure and AWS<br>
+							</p>
+						</div>
+						</article>
 
 						<!-- About -->
-							<article id="about" style="background-color: #005f2f; border-radius: 10px; color: white;">
-								<h2 style="font-size: 24px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px;">Gains</h2>
+							<article id="about" style="
+							display: flex; 
+							flex-direction: column; 
+							align-items: center; 
+							justify-content: center; 
+							text-align: center; 
+							padding: 20px; 
+							background-color: #005f2f; 
+							border-radius: 10px; 
+							color: white; 
+							max-width: 600px; 
+							margin: 50px auto; 
+							height: auto; /* Высота подстраивается под контент */">
+								<h2 style="
+								font-size: 24px; 
+								margin-bottom: 20px; 
+								text-transform: uppercase; 
+								letter-spacing: 2px;">Gains</h2>
 								<span class="image main"><img src="images/Artem-2708-DevOps-for-system-administrators-dev_36-Web-Academy-1.png" alt="" /></span>
 								<p>In the future I want to increase my skills and gain new knowledge
 								 </p>
